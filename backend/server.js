@@ -50,6 +50,7 @@ app.use("/api/gmail", emailRoutes); // ✅ FIX: add this line
 
 // ✅ Root
 app.get("/", (req, res) => res.send("✅ Backend running fine"));
+// Health check route (optional)
 
 // ✅ MongoDB connection
 mongoose
