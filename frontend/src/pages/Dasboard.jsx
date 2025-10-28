@@ -3,7 +3,7 @@ import EmailCard from "../components/EmailCard";
 import OpenAIKeyInput from "../components/OpenAIKeyInput"; // Import the new component
 import Navbar from "../components/Navbar";
 
-const API = "http://localhost:5000";
+const API = import.meta.env.VITE_API_URL || "http://localhost:5000";
 
 export default function Dashboard() {
   const [user, setUser] = useState(null);
