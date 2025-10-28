@@ -2,7 +2,7 @@ import React from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Login from "./pages/Login.jsx";
-import Dashboard from "./pages/Dasboard.jsx";
+import Dashboard from "./pages/Dashboard.jsx";
 import "./App.css";
 
 function App() {
